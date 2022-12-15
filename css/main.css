@@ -366,6 +366,9 @@ header .container .card {
   z-index: 21;
 }
 @media (width < 767px) {
+  .card {
+    display: none;
+  }
   .burger {
     display: inherit;
   }
