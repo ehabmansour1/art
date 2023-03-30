@@ -678,4 +678,11 @@ main .sections .middle button {
     display: none;
   }
 }
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}
+body {
+  min-height: 200vh;
+}
 /* scroll */

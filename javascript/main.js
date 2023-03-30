@@ -4,6 +4,7 @@ let nav = document.querySelector(".nav");
 burger.addEventListener("click", function () {
   nav.classList.toggle("force-show");
   burger.classList.toggle("burger-opened");
+  document.body.classList.toggle("stop-scrolling");
 });
 //start loader===============================
 let animatedElements = document.querySelectorAll(".no-animation");
